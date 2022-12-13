@@ -8,7 +8,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import Adam, SGD
 from keras.utils import np_utils
 from imutils import paths
-from livenessnet.livenessnet import LivenessNet, Liveness_VGG16, Liveness_InceptionV3, Liveness_ResNet50
+from liveness.livenessnet import LivenessNet, Liveness_VGG16, Liveness_InceptionV3, Liveness_ResNet50
 import matplotlib.pyplot as plt
 import numpy as np
 import argparse
